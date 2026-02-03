@@ -27,7 +27,6 @@ app.use("/api/cars", carRouter);
 
 // Use the userRouter for all /users routes
 
-
 app.use(unknownEndpoint);
 
 app.use(errorHandler);
